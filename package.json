@@ -9,7 +9,6 @@
     "@testing-library/user-event": "^14.4.2",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-scripts": "4.0.3",
     "treat": "^1.6.1",
     "web-vitals": "^2.1.4"
   },
