@@ -3,20 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@myob/myob-widgets": "^7.3.7",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^12.1.5",
-    "@testing-library/user-event": "^14.4.2",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
+    "@myob/myob-widgets": "^7.4.0",
+    "next": "^12.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "treat": "^1.6.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "eslintConfig": {
     "extends": [
