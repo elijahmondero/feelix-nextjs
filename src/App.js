@@ -1,9 +1,10 @@
-import WelcomeMessage from './WelcomeMessage';
+import WelcomeMessage from "./WelcomeMessage";
+import ReactDOMServer from "react-dom/server";
 
 function App() {
   return (
     <div className="App">
-      <WelcomeMessage />
+      {ReactDOMServer.renderToStaticMarkup(<WelcomeMessage />)}
     </div>
   );
 }
